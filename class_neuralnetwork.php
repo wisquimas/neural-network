@@ -835,4 +835,3 @@ class NeuralNetwork {
 		return $RMSerror;
 	}
 }
-?>
