@@ -107,7 +107,7 @@ class NeuralNetwork {
 	 * $n = new NeuralNetwork(array(4, 10, 10, 4));
 	 * </code>
 	 * 
-	 * @param array $nodeCount The number of nodes in the consecutive layers.
+	 * @param array|mixed $nodeCount The number of nodes in the consecutive layers.
 	 */
 	public function __construct($nodeCount) {
 		if (!is_array($nodeCount)) {
